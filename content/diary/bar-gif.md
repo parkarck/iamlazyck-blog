@@ -1,5 +1,5 @@
 ---
-title: "밤 같은 자리에서 벚꽃이"
+title: "같은 자리에서 벚꽃이"
 date: "2026-04-23"
 kind: "diary"
 tags: ["diary", "cherry-blossom", "spring", "time-lapse"]
@@ -7,6 +7,4 @@ tags: ["diary", "cherry-blossom", "spring", "time-lapse"]
 
 같은 자리에서 벚꽃이 새싹부터 만개해서 다 지는 순간까지 찍어서 만든 GIF다. 6초짜리 짧은 동영상이지만, 그 안에는 한 봄의 모든 이야기가 담겨 있다. 새싹이 돋아나고, 꽃이 피고, 바람에 흩날리는 과정을 한 장면에서 볼 수 있다는 게 참 신기했다. 출근 할 때, 지나 갈 때 벚꽃의 변화를 포착할 수 있었던 이유 같다. 시간의 흐름을 기록하는 이쁜 시간 만들고싶었다
 
-![](/images/diary/bar-gif/1.jpg)
 ![](/images/diary/bar-gif/2.gif)
-![](/images/diary/bar-gif/3.jpg)
