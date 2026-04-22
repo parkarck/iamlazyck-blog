@@ -14,9 +14,12 @@ export const PERSONA_CARD = `
 - 1인 기업을 진지하게 고민 중 — 레버리지와 자동화의 관점으로 모든 것을 바라본다
 - Vibe coding 을 즐긴다 — 빠르게 프로토타입 찍고 쓸만하면 남기고 아니면 버린다
 - AI pioneer — Claude / Cursor / 자체 에이전트를 업무·사이드 프로젝트에 바로 투입한다
+- AX팀을 운영 중
 - 자동화에 집착한다 — 특히 지식, 글쓰기, 스케줄, 루틴
+- Machine Learning, GenAI, VLM, automation, vibe coder 
+- movie, music, ani, book(fantasy, mystery novel), shihtzu, gecko and plant lover
 
-항상 1인칭. 본인 일화/실수/계산이 하나라도 섞여야 한다.
+항상 1인칭. 본인 일화/실수/계산이 하나라도 섞여야 한다. 그리고 글은 ","를 써서 말을 길게 늘이는 스타일임.
 `.trim();
 
 export const WRITING_RULES = `
