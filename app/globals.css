@@ -1,0 +1,279 @@
+:root {
+  --bg: #000000;
+  --ink: #ededed;
+  --ink-soft: #a0a0a0;
+  --line: #2a2a2a;
+  --accent: #ff7a45;
+  --code-bg: #161616;
+  --max: 720px;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family:
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  flex: 1;
+  padding: 48px 0 96px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+  background: var(--bg);
+}
+.site-header .brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.site-header nav {
+  display: flex;
+  gap: 18px;
+  margin-top: 8px;
+  font-size: 0.92rem;
+}
+.site-header nav a {
+  color: var(--ink-soft);
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: var(--bg);
+}
+.site-footer .footer-links {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.4em;
+}
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.8em;
+}
+
+p,
+ul,
+ol,
+blockquote,
+pre {
+  margin: 1em 0;
+}
+
+blockquote {
+  border-left: 3px solid var(--line);
+  padding-left: 14px;
+  color: var(--ink-soft);
+  margin-left: 0;
+}
+
+code {
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.92em;
+  font-family:
+    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 14px 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 3em 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.post-list li {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-list li:first-child {
+  padding-top: 0;
+}
+.post-list .meta {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.post-list h2 {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+}
+.post-list h2 a {
+  color: var(--ink);
+}
+.post-list .excerpt {
+  color: var(--ink-soft);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.post-header {
+  margin-bottom: 32px;
+}
+.post-header .meta {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.post-header .tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.post-header .tag {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  background: var(--code-bg);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.post-body {
+  font-size: 1rem;
+}
+
+.post-footer {
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+.kind-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.static-page h1 {
+  margin-bottom: 24px;
+}
+.static-page h2 {
+  font-size: 1.15rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+.hero-rocky {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 0;
+  filter: drop-shadow(0 0 20px rgba(255, 122, 69, 0.35));
+  animation: rocky-float 4s ease-in-out infinite;
+}
+.hero-intro {
+  margin: 0;
+  color: var(--ink-soft);
+}
+@keyframes rocky-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+@media (max-width: 560px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .hero-rocky {
+    width: 110px;
+    height: 110px;
+  }
+}
