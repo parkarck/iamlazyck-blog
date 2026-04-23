@@ -1,6 +1,6 @@
 ---
-title: "아침 오전 9시쯤 전자책으로"
-date: "2026-04-23"
+title: "뇌는 어떻게 나를 조정하는가"
+date: "2026-04-08"
 kind: "diary"
 tags: ["diary", "\ub1cc\ub294", "\ub3c5\uc11c", "\uc804\uc790\ucc45", "\uc790\uc544"]
 ---
