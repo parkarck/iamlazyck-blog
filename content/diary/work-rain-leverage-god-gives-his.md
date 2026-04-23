@@ -2,7 +2,7 @@
 title: "아침 "억만장자들보다 더 값졌다고"
 date: "2026-04-23"
 kind: "diary"
-tags: ["diary", "\uc778\uc0dd\uba85\uc5b8"]
+tags: ["diary", "인생명언"]
 ---
 
 "억만장자들보다 더 값졌다고 한 인터뷰"라는 영상을 봤다. 제목만 봐도 궁금해지는데, 내용은 더 인상적이었다. "God gives his toughest battles to his strongest soldiers"라는 말이 머릿속에 남았다. 어려움을 겪을 때 그게 나를 시험하는 게 아니라, 내가 버틸 수 있어서 주어진 기회라는 관점이 새로웠다.
